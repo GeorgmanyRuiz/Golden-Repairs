@@ -60,13 +60,14 @@ body {
 .mid .mySkills {
   line-height: 1.6;
   flex-wrap: wrap;
-  font-size: 25px;
+  font-size: 30px;
   font-weight: bold;
   text-align: left;
   font-family: monospace;
 }
 
 .mid .mySkills li {
+  text-align: center;
   border: 2px solid black;
   padding: 5px;
   margin: 5px;
