@@ -1,0 +1,115 @@
+body {
+  display: flex;
+  flex-direction: column;
+}
+
+
+/* Header*/
+
+.nav {
+  flex-wrap: wrap;
+  border-bottom: 5px solid rgb(246,152,9,0.5);
+
+}
+
+.logo {
+  float: left;
+}
+
+.menu {
+  float: right;
+  padding-top: 30px;
+}
+
+.menu a {
+  display: inline-flex;
+  flex-wrap: wrap;
+  padding: 5px 30px;
+  color: #000;
+  font-weight: bold;
+  text-decoration: none;
+  font-size: 2rem;
+  font-family: monospace;
+
+}
+
+.menu a:hover {
+  text-decoration: underline;
+  color: rgb(246,152,9);
+  background: rgb(246,152,9);
+  background: -webkit-linear-gradient(53deg, rgba(246,152,9,1) 23%, rgba(249,243,36,1) 90%);
+  background: -o-linear-gradient(53deg, rgba(246,152,9,1) 23%, rgba(249,243,36,1) 90%);
+  background: linear-gradient(143deg, rgba(246,152,9,1) 23%, rgba(249,243,36,1) 90%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+/* Header*/
+
+/*Main*/
+
+.mid {
+  background: rgba(249,243,36,0.3);
+  padding: 30px 10px;
+  flex-wrap: wrap;
+  border-bottom: 5px solid rgb(246,152,9,0.5);
+  color: #232323;
+}
+
+.mid h2 {
+  font-size: 3rem;
+  text-align: center;
+  font-family: monospace;
+  text-decoration: underline;
+}
+
+.mid .myServices {
+  line-height: 1.6;
+  flex-wrap: wrap;
+  font-size: 25px;
+  font-weight: bold;
+  text-align: left;
+  font-family: monospace;
+}
+
+
+
+
+/*Main*/
+
+/* Footer*/
+
+.bottom {
+  flex-wrap: wrap;
+  text-align: center;
+  padding: 20px;
+  margin: 20px;
+
+}
+
+
+.platforms a {
+  background: rgb(246,152,9);
+  background: -webkit-linear-gradient(53deg, rgba(246,152,9,1) 23%, rgba(249,243,36,1) 90%);
+  background: -o-linear-gradient(53deg, rgba(246,152,9,1) 23%, rgba(249,243,36,1) 90%);
+  background: linear-gradient(143deg, rgba(246,152,9,1) 23%, rgba(249,243,36,1) 90%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  text-decoration: none;
+  padding: 5px 10px;
+  margin-left: 40px;
+  font-size: 2rem;
+  font-weight: bold;
+
+}
+
+.bottom .footer {
+  font-size: 12px;
+  font-family: sans-serif;
+  color: #232323;
+  padding-left: 15px;
+  margin-left: 15px;
+  word-spacing: 2px;
+}
+
+/* Footer*/
