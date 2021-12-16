@@ -77,10 +77,15 @@ body {
   color: red;
 }
 
-.mid .myServices .raspberry:hover {
+.mid .myServices .raspberry:hover{
   text-decoration: underline;
-  color: gold;
-  text-shadow: 2px 2px 3px rgba(30,30,30,0.5)
+  color: rgb(246,152,9);
+  background: rgb(246,152,9);
+  background: -webkit-linear-gradient(53deg, rgba(246,152,9,1) 23%, rgba(249,243,36,1) 90%);
+  background: -o-linear-gradient(53deg, rgba(246,152,9,1) 23%, rgba(249,243,36,1) 90%);
+  background: linear-gradient(143deg, rgba(246,152,9,1) 23%, rgba(249,243,36,1) 90%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
 }
 
 
