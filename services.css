@@ -72,7 +72,15 @@ body {
   font-family: monospace;
 }
 
+.mid .myServices .raspberry {
+  text-decoration: none;
+  color: red;
+}
 
+.mid .myServices .raspberry:hover {
+  text-decoration: underline;
+  color: gold;
+}
 
 
 /*Main*/
