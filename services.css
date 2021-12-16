@@ -80,6 +80,7 @@ body {
 .mid .myServices .raspberry:hover {
   text-decoration: underline;
   color: gold;
+  text-shadow: 2px 2px 3px rgba(30,30,30,0.5)
 }
 
 
