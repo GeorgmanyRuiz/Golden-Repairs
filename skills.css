@@ -76,10 +76,14 @@ body {
 }
 
 .mid .mySkills li:hover {
-  background-color: rgba(249,243,36,1);
-  color: black;
-  -webkit-box-shadow: 5px 5px 10px 1px rgba(80,54,4,0.65);
-  box-shadow: 5px 5px 10px 1px rgba(80,54,4,0.65);
+  background: rgb(246,152,9);
+  background: -webkit-linear-gradient(53deg, rgba(246,152,9,1) 23%, rgba(249,243,36,1) 90%);
+  background: -o-linear-gradient(53deg, rgba(246,152,9,1) 23%, rgba(249,243,36,1) 90%);
+  background: linear-gradient(143deg, rgba(246,152,9,1) 23%, rgba(249,243,36,1) 90%);
+  color: #000;
+  -webkit-box-shadow: 5px 3px 3px 1px rgba(80,54,4,0.45);
+  box-shadow: 5px 3px 3px 1px rgba(80,54,4,0.45);
+  text-shadow: 2px 2px 3px rgba(30,30,30,0.5);
 }
 
 /*Main*/
