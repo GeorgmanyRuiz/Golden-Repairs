@@ -106,8 +106,44 @@ body {
   margin-left: 40px;
   font-size: 2rem;
   font-weight: bold;
-
 }
+
+.platforms a.fa-instagram:hover {
+  background: rgb(166,3,171);
+  background: -webkit-linear-gradient(60deg, rgba(166,3,171,1) 12%, rgba(134,81,219,1) 34%, rgba(225,48,108,1) 59%, rgba(252,175,69,1) 81%);
+  background: -o-linear-gradient(60deg, rgba(166,3,171,1) 12%, rgba(134,81,219,1) 34%, rgba(225,48,108,1) 59%, rgba(252,175,69,1) 81%);
+  background: linear-gradient(150deg, rgba(166,3,171,1) 12%, rgba(134,81,219,1) 34%, rgba(225,48,108,1) 59%, rgba(252,175,69,1) 81%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.platforms a.fa-linkedin:hover {
+  background: rgb(63,183,241);
+  background: -webkit-linear-gradient(60deg, rgba(63,183,241,1) 0%, rgba(14,118,168,1) 58%);
+  background: -o-linear-gradient(60deg, rgba(63,183,241,1) 0%, rgba(14,118,168,1) 58%);
+  background: linear-gradient(150deg, rgba(63,183,241,1) 0%, rgba(14,118,168,1) 58%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.platforms a.fa-github:hover {
+  background: rgb(140,140,140);
+  background: -webkit-linear-gradient(60deg, rgba(140,140,140,1) 0%, rgba(51,51,51,1) 58%);
+  background: -o-linear-gradient(60deg, rgba(140,140,140,1) 0%, rgba(51,51,51,1) 58%);
+  background: linear-gradient(150deg, rgba(140,140,140,1) 0%, rgba(51,51,51,1) 58%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.platforms a.fa-google:hover {
+  background: rgb(35,106,224);
+  background: -webkit-linear-gradient(60deg, rgba(35,106,224,1) 29%, rgba(232,49,33,1) 44%, rgba(244,180,0,1) 55%, rgba(15,157,58,1) 70%);
+  background: -o-linear-gradient(60deg, rgba(35,106,224,1) 29%, rgba(232,49,33,1) 44%, rgba(244,180,0,1) 55%, rgba(15,157,58,1) 70%);
+  background: linear-gradient(150deg, rgba(35,106,224,1) 29%, rgba(232,49,33,1) 44%, rgba(244,180,0,1) 55%, rgba(15,157,58,1) 70%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
 
 .bottom .footer {
   font-size: 12px;
